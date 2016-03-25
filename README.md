@@ -19,15 +19,15 @@ If the behavior of a queue is unclear, explore this [site where we can interact 
 
 ## Releases
 ### Release 0: Document Stack Behaviors.
-In the `stack.rb` file, we're presented with a working `Stack` class.  The class includes behaviors for pushing elements to the stack and popping them off the stack.  In addition, our class includes a couple additional behaviors that can be found in different stack implementations:  peeking at the item on the top of the stack and reporting whether or not the stack is empty.
+In the `my_stack.rb` file, we're presented with a working `MyStack` class.  The class includes behaviors for pushing elements to the stack and popping them off the stack.  In addition, our class includes a couple additional behaviors that can be found in different stack implementations:  peeking at the item on the top of the stack and reporting whether or not the stack is empty.
 
-Notice how we build our `Stack` class out of a normal `Array` object.  Behind the scenes, our `Stack` class holds its elements in an array.  But we control how users can interact with that array by keeping it internal to a stack and only allowing the behaviors that a stack would have.
+Notice how we build our `MyStack` class out of a normal `Array` object.  Behind the scenes, our `MyStack` class holds its elements in an array.  But we control how users can interact with that array by keeping it internal to a stack and only allowing the behaviors that a stack would have.
 
 We already have a working stack, but we need to document its behaviors through tests.  Thoroughly test each of the methods.
 
 
 ### Release 1:  Expand Stack Behaviors
-We're going to add some behaviors to our `Stack` class.  We have some behaviors that related to the number of items in a stack.  We can ask a stack whether it's empty.  In addition, we raise an error if we try to pop an element off an empty stack.
+We're going to add some behaviors to our `MyStack` class.  We have some behaviors that related to the number of items in a stack.  We can ask a stack whether it's empty.  In addition, we raise an error if we try to pop an element off an empty stack.
 
 We're going to add some additional behaviors related to the number of items in a stack.  These behaviors need to be fully documented in our test suite.
 
@@ -38,7 +38,7 @@ We're going to add some additional behaviors related to the number of items in a
 
 
 ### Release 2: Implement a Queue
-Using our stack implementation as an example, let's implement a `Queue` class.  At a minimum, our implementation needs the following behaviors—each of which should be documented in tests.
+Using our stack implementation as an example, let's implement a `MyQueue` class.  At a minimum, our implementation needs the following behaviors—each of which should be documented in tests.
 
 - Add elements to a queue.
 - Remove elements from a queue.
