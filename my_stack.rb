@@ -1,4 +1,4 @@
-class Stack
+class MyStack
   class UnderflowError < StandardError; end
 
   def initialize
