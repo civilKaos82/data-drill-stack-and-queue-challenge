@@ -1,4 +1,4 @@
-require_relative '../stack'
+require_relative '../my_stack'
 
-describe Stack do
+describe MyStack do
 end

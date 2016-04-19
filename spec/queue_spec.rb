@@ -1,4 +1,4 @@
-require_relative '../queue'
+require_relative '../my_queue'
 
-describe Queue do
+describe MyQueue do
 end
